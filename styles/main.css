@@ -1,0 +1,106 @@
+.introduction{
+    display: grid;
+    grid-template-columns:3fr 2fr;
+    height: 75rem;
+    width: 150rem;
+    max-width: 1500px;
+    max-height: 750px;
+}
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10rem;
+}
+.photo{
+    width: 50rem;
+    border-radius: 50%;
+
+}
+.details{
+    padding-top: 12rem;
+    display:grid;
+    grid-template-rows: 10rem 8rem 8rem  20rem;
+    font-family: 'Inter';
+    row-gap: 1rem;
+
+    
+}
+.name{
+    display: flex;
+    justify-content: center;
+    font-size: 5.5rem;
+    font-weight: 700;
+    color:	#E0E0E0;
+
+}
+.tagline{
+    display: flex;
+    
+    justify-content: center;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color:	#aaaaaa;
+    align-items: center;
+
+}
+.summary{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #CCCCCC;
+    font-weight: 200;
+    font-size: 3.5rem;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+}
+.button{
+    height: 10rem;
+    width: 30rem;
+    background-color: #2A2A40;
+    color:	#E0E0E0;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    padding: 0.7rem 1.4rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600; 
+}
+.button:hover{
+    background-color: #4d4d78;
+    cursor: pointer;
+    
+}
+.project-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap: 10rem;
+    
+}
+.project{
+    background-color:  #1E1E2F;
+    border-radius: 10px;
+    height: 50rem;
+    width: 45rem;
+}
+.project-header{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#E0E0E0;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20rem;
+    font-family: 'inter';
+    font-weight: 700;
+    font-size: 10rem;
+    font-style: italic;
+
+}
+

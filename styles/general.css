@@ -1,0 +1,91 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Inter;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#home{
+    height: 100vh;
+    width: 100vw;
+    background-color:  #1E1E2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color:#2A2A40; 
+    position: relative;
+}
+
+@media (max-width:1000rem) {
+    html{
+        font-size: 50%;
+    }
+    
+}
+@media (max-width:85rem) {
+    html{
+        font-size: 40%;
+    }
+    
+}
+@media (max-width:67.5rem) {
+    html{
+        font-size: 35%;
+    }
+    
+}
+@media (max-width:63.5rem) {
+    html{
+        font-size: 32%;
+    }
+    
+}
+@media (max-width:50rem) {
+    html{
+        font-size: 25%;
+    }
+    
+}
+
+@media (max-width:40.5rem) {
+    html{
+        font-size: 25%;
+    }
+    .introduction{
+        grid-template-columns: 1fr;
+        margin-bottom: 50rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+    .profile-photo{
+        grid-row:1;
+    }
+    .buttons{
+        padding-top: 5rem;
+        grid-template-columns: 1fr;
+        row-gap: 10rem;
+    }
+    .project-container{
+        margin-top: 15rem;
+        grid-template-columns: 1fr ;
+        row-gap: 10rem;
+    
+    }
+    .project{
+        height: 50rem;
+        width: 45rem;
+
+    }
+
+   
+}
